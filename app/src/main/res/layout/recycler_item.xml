@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="10dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="5dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chapter Name"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:id="@+id/chapterName"
+            android:padding="10dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtopic Name"
+            android:id="@+id/subtopic"
+            android:visibility="gone"
+            android:padding="10dp"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Delete "
+            android:id="@+id/deletePDF"
+            android:textAllCaps="false"
+            android:background="#F10B0B"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_gravity="end">
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#EF0A0A</color>
+    <color name="transperent">#00000000</color>
+    <color name="gradientend">#808080</color>
+    <color name="gray">#808080</color>
+    <color name="spinningbar">#808080</color>
+    <color name="contenttextcolor">#999da4</color>
+    <color name="cardbg">#F6F6F6</color>
+    <color name="titletextcolor">#25Bbd6</color>
+    <color name="gradientstart">#FFFFFF</color>
+
+    <color name="resultProgressColor">#008000</color>
+
+<!--    Home screen colors  -->
+    <color name="blue_home">#0040a6</color>
+    <color name="green_home">#137829</color>
+    <color name="light_green_home">#93ff7d</color>
+    <color name="yellow_home">#dbcd00</color>
+    <color name="violet_home">#bd55b1</color>
+    <color name="dark_violet_home">#b8115e</color>
+
+</resources>

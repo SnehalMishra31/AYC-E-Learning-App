@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alphaCoachingAdmin">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AlphaApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/alpha_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/alpha_launcher_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.GemsActivity"
+            android:label="@string/title_activity_gems"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserRequests.RequestDetails" />
+        <activity android:name=".UserRequests.RequestsUsers" />
+        <activity android:name=".Score" />
+        <activity android:name=".fragment.ResultsQuestionReview" />
+        <activity
+            android:name=".activity.ResultsSingleQuestionDetails"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".activity.ResultsQuestionsAnalysis"
+            android:theme="@style/TabAppTheme" />
+        <activity android:name=".activity.Notifications" />
+        <activity android:name=".activity.testresults" />
+        <activity android:name=".activity.ResultDetails" />
+        <activity android:name=".activity.Solutions" />
+        <activity android:name=".QuizResultsAndQuestions.EditQuestion" />
+        <activity android:name=".QuizResultsAndQuestions.ViewQuizQuestions" />
+        <activity android:name=".activity.ViewUsers" />
+        <activity android:name=".activity.CreateUser" />
+        <activity android:name=".PDFviewer" />
+        <activity android:name=".activity.VideoDisplay" />
+        <activity android:name=".Video.AddVideoActivity" />
+        <activity android:name=".activity.VideoSubcategory" />
+        <activity android:name=".activity.SelectClass" />
+        <activity android:name=".activity.AddingPDF" />
+        <activity
+            android:name=".activity.ViewStudyMaterial"
+            android:theme="@style/TabAppTheme" />
+        <activity android:name=".activity.FillQuestionsActivity" />
+        <activity android:name=".activity.FillQuizDataActivity" />
+        <activity android:name=".activity.StoreRecentLectureActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FcmConnection.FCMTokenReceiver" />
+    </application>
+
+</manifest>
